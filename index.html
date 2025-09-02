@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chronomètre</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Chronomètre</h1>
+        <div class="chrono-container">
+            <div id="chrono">00:00:00</div>
+            <div class="buttons">
+                <button class="start" onclick="startTimer()">Play</button>
+                <button class="pause" onclick="pauseTimer()">Pause</button>
+            </div>
+        </div>
+        <button class="reset" onclick="resetTimer()">Réinitialiser</button>
+        <ul id="history"></ul>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
